@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,13 @@
     <title>Sparta Fitness</title>
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
 <style>
     /*CSS Reset*/
-    *{
+    * {
         box-sizing: border-box;
     }
-    body{
+
+    body {
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
         /*font-family: 'Baloo Bhai 2', cursive;*/
@@ -25,52 +26,62 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .left img{
+
+    .left img {
         width: 100px;
     }
-    .left div{
+
+    .left div {
         line-height: 0px;
         text-align: center;
     }
-    .left{
+
+    .left {
         border: 2px solid black;
         position: absolute;
         left: 25px;
         top: 20px;
         display: inline-block;
     }
-    .mid{
+
+    .mid {
         /*border: 1px solid white;*/
         font-size: 20px;
         text-align: center;
-        display:block;
+        display: block;
         width: 45%;
         margin: 0px auto;
     }
-    .right{
+
+    .right {
         /*border: 1px solid white;*/
         position: absolute;
         right: 10px;
         top: 20px;
         display: inline-block;
     }
-    .navbar{
+
+    .navbar {
         display: inline-block;
     }
-    .navbar li{
+
+    .navbar li {
         display: inline-block;
         font-size: 22px;
     }
-    .navbar li a{
+
+    .navbar li a {
         text-decoration: none;
-        color:white;
+        color: white;
         padding: 7px 14px;
     }
-    .navbar li a:hover{
+
+    .navbar li a:hover {
         color: rgb(167, 167, 118);
         text-decoration: underline;
     }
-    .btn{
+
+    .btn {
         font-weight: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
         /*font-family: 'Baloo Bhai 2', cursive;*/
@@ -83,12 +94,14 @@
         cursor: pointer;
         font-size: 15px;
     }
-    .btn:hover{
+
+    .btn:hover {
         background-color: white;
         color: black;
     }
-    .container{
-       
+
+    .container {
+
         width: 25%;
         /*border: 2px solid white;*/
         margin: 85px 1100px;
@@ -96,7 +109,8 @@
         border-radius: 162px;
 
     }
-    .form-group input{
+
+    .form-group input {
         font-family: Georgia, 'Times New Roman', Times, serif;
         /*font-family: 'Baloo Bhai 2', cursive;*/
         background-color: black;
@@ -110,45 +124,50 @@
         border-radius: 10px;
         font-size: 15px;
     }
-    .container h2{
+
+    .container h2 {
         text-align: center;
     }
-   .container button{
-    border-radius: 14px;
-    display: block;
-    width: 35%;
-    margin: 30px auto;
-   }
-   .quote{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    /*border: 1px solid white;*/
-    margin: -460px 75px;
-    padding: 20px;
-    width: 25%;
-   }
-   .soc{
-    
-    text-align: right;
-    line-height: 0px;
-   }
+
+    .container button {
+        border-radius: 14px;
+        display: block;
+        width: 35%;
+        margin: 30px auto;
+    }
+
+    .quote {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        /*border: 1px solid white;*/
+        margin: -460px 75px;
+        padding: 20px;
+        width: 25%;
+    }
+
+    .soc {
+
+        text-align: right;
+        line-height: 0px;
+    }
 </style>
+
 <body>
     <header class="header">
 
         <!-- LEFT BOX FOR LOGO -->
         <div class="left">
             <img src="/images/sparta_logo.jpg" alt="">
-            <div>GYM</div>
+            <div>FITNESS</div>
         </div>
 
         <!-- MID BOX FOR NAVBAR -->
         <div class="mid">
             <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">BMI Calculator</a></li>
-                <li><a href="#">Learn More</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="bmi.html">BMI Calculator</a></li>
+                <li><a href="learnmore.html">Learn More</a></li>
             </ul>
         </div>
 
@@ -170,7 +189,7 @@
                 <input type="text" placeholder="ENTER YOUR GENDER">
             </div>
             <div class="form-group">
-                <input type="text" placeholder="ENTER YOUR AGE">
+                <input type="number" placeholder="ENTER YOUR AGE">
             </div>
             <div class="form-group">
                 <input type="text" placeholder="ENTER YOUR WEIGHT">
@@ -188,10 +207,15 @@
         </form>
     </div>
     <div class="quote">
-        <h4> <hr> <em>"NO MAN HAS THE RIGHT TO BE AN AMATEAUR IN THE MATTER OF PHYSICAL TRAINING. <br>IT IS A SHAME FOR A MAN TO GROW OLD WITHOUT SEEING THE BEAUTY & STRENGTH OF WHICH HIS BODY IS CAPABLE"</em> <hr> </h4>
+        <h4>
+            <hr> <em>"NO MAN HAS THE RIGHT TO BE AN AMATEAUR IN THE MATTER OF PHYSICAL TRAINING. <br>IT IS A SHAME FOR A
+                MAN TO GROW OLD WITHOUT SEEING THE BEAUTY & STRENGTH OF WHICH HIS BODY IS CAPABLE"</em>
+            <hr>
+        </h4>
         <div class="soc">
             <h4> -SOCRATES </h4>
         </div>
     </div>
 </body>
+
 </html>

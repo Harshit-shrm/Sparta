@@ -1,0 +1,20 @@
+body {
+    color: white;
+    background-color: black;
+    background: url('/images/unsplash_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home {
+
+    text-align: center;
+    width: 65%;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 5px;
+    margin: 50px auto;
+    
+}
